@@ -1,3 +1,4 @@
-'use strict';
-
-module.exports = require( './lib/node-cec' )
+module.exports = {
+	cec   : require('./lib/cec'),
+	types : require('./lib/types'),
+};
